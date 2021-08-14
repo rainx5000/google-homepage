@@ -1,0 +1,1 @@
+Hello, this is my first time cloning the google homepage. I will try to make a 1:1 copy of the homepage to apply my CSS that I have been learning.

@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-areas: 
+  "nav"
+  "content"
+  "footer";
+  height: 100vh;
+}
+.nav {
+  grid-area: nav;
+  align-self: start;
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  grid-area: content;
+  justify-self: center;
+}
+.footer {
+  grid-area: footer;
+  display: flex;
+  align-self: end;
+  justify-content: space-between;
+}

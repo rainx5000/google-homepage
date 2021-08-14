@@ -5,13 +5,34 @@
   "content"
   "footer";
   height: 100vh;
+  font-family: Roboto,arial,sans-serif;
+}
+.container a {
+  color: #222;
+  text-decoration: none;
 }
 .nav {
   grid-area: nav;
   align-self: start;
   display: flex;
   justify-content: space-between;
+  color: #222;
+  padding: 15px;
+  font-size: 13px;
 }
+.nav section >* {
+  vertical-align: middle;
+  padding: 0px 10px;
+}
+
+.nav section >*:hover {
+  text-decoration: underline;
+}
+
+.nav .user-logo {
+  border-radius: 50%;
+}
+
 .main {
   grid-area: content;
   justify-self: center;
